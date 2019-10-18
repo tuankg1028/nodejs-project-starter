@@ -1,0 +1,44 @@
+{
+  "name": "maplocation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "babel-watch src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://lethanhtuan1028@bitbucket.org/lethanhtuan1028/maplocation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/lethanhtuan1028/maplocation#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-response-formatter": "^1.1.0",
+    "express-validator": "^6.2.0",
+    "helmet": "^3.21.1",
+    "i": "^0.3.6",
+    "mongoose": "^5.7.5",
+    "morgan": "^1.9.1",
+    "npm": "^6.12.0",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/runtime": "^7.6.3",
+    "babel-watch": "^7.0.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1"
+  }
+}

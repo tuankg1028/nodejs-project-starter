@@ -1,0 +1,54 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 15
+    },
+    "auditLog": "/Users/a1234/individual/abc/maplocation/logman/.852e9f9cc67186638c188e87be2fc4b05fe3ff42-audit.json",
+    "files": [
+        {
+            "date": 1571292946530,
+            "name": "/Users/a1234/individual/abc/maplocation/logman/btask-2019-10-17-13.log",
+            "hash": "33df8abb01d0377523659ee6c468a70e"
+        },
+        {
+            "date": 1571321309282,
+            "name": "/Users/a1234/individual/abc/maplocation/logman/btask-2019-10-17-21.log",
+            "hash": "fe178e7ccaa85f7cfaf95d225ce80bdc"
+        },
+        {
+            "date": 1571362348907,
+            "name": "/Users/a1234/individual/abc/maplocation/logman/btask-2019-10-18-08.log",
+            "hash": "13ed760b63c6685e07a04d16f5ada9f9"
+        },
+        {
+            "date": 1571364242090,
+            "name": "/Users/a1234/individual/abc/maplocation/logman/btask-2019-10-18-09.log",
+            "hash": "17eb6772b0e5dc5da89439bc5df6987d"
+        },
+        {
+            "date": 1571367837341,
+            "name": "/Users/a1234/individual/abc/maplocation/logman/btask-2019-10-18-10.log",
+            "hash": "15a7c15d0080921df5b9dcbef7d57d99"
+        },
+        {
+            "date": 1571372909743,
+            "name": "/Users/a1234/individual/abc/maplocation/logman/btask-2019-10-18-11.log",
+            "hash": "793b7c67740b980cfacbc22e0bb0f1d5"
+        },
+        {
+            "date": 1571374802005,
+            "name": "/Users/a1234/individual/abc/maplocation/logman/btask-2019-10-18-12.log",
+            "hash": "bf026a85a6e1d558bef13a88c4c4d9f8"
+        },
+        {
+            "date": 1571382745664,
+            "name": "/Users/a1234/individual/abc/maplocation/logman/btask-2019-10-18-14.log",
+            "hash": "817b5d2e34ea3bbd0883506f709d72b9"
+        },
+        {
+            "date": 1571385778708,
+            "name": "/Users/a1234/individual/abc/maplocation/logman/btask-2019-10-18-15.log",
+            "hash": "275d3edb9c4ade50291fcb198ee2259d"
+        }
+    ]
+}
