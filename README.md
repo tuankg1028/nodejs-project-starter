@@ -5,10 +5,11 @@
 - [MongoDB](https://www.mongodb.com/).
 ### Getting Started
 ```
-git clone https://github.com/sahat/hackathon-starter.git myproject
+# To clone source
+git clone https://github.com/tuankg1028/nodejs-project-starter.git
 
-# hange directory
-cd 
+# Change directory
+cd nodejs-project-starter
 
 # Install NPM dependencies
 npm install
