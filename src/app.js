@@ -7,7 +7,6 @@ import helmet from "helmet";
 import compression from "compression";
 import Utils from "./utils";
 import routers from "./routers";
-import responseEnhancer from "express-response-formatter";
 
 const app = express();
 
@@ -15,7 +14,6 @@ app.use(cors());
 app.use(helmet());
 app.use(compression());
 app.use(logger("dev"));
-app.use(responseEnhancer());
 
 // set routers
 app.use("/api", routers);

@@ -4,7 +4,7 @@ class BlogController {
 
   // get list of posts
   async getAll(req, res) {
-    res.formatter.ok({
+    res.json({
       message: "aaa"
     });
   }
@@ -19,7 +19,7 @@ class BlogController {
       title
     });
 
-    res.formatter.ok({
+    res.json({
       msg: "Created successfully"
     });
   }
