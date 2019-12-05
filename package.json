@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "babel-watch src/app.js"
+    "start:prod": "cross-env NODE_ENV=production node dist/app.js",
+    "start:dev": "cross-env NODE_ENV=development node dist/app.js",
+    "start:test": "cross-env NODE_ENV=test node dist/app.js",
+    "build": "babel src -s -d dist",
+    "dev": "cross-env NODE_ENV=development babel-watch src/app.js",
+    "test": "cross-env NODE_ENV=test babel-watch src/app.js"
   },
   "repository": {
     "type": "git",
@@ -35,6 +40,7 @@
     "@babel/preset-env": "^7.6.3",
     "@babel/runtime": "^7.6.3",
     "babel-watch": "^7.0.0",
+    "cross-env": "^6.0.3",
     "dotenv": "^8.2.0",
     "eslint": "^6.5.1",
     "eslint-config-prettier": "^6.4.0",
